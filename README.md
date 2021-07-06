@@ -9,12 +9,12 @@ Clone this repo
 ## Setup .env file
 Open this repo in your favorite code editor, duplicate **.env.example** and rename it to **.env**, then find DB configuration lines. Change them to:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=**birutekno**
-DB_USERNAME={your_db_username}
-DB_PASSWORD={your_db_password}
+DB_CONNECTION=mysql <br>
+DB_HOST=127.0.0.1 <br>
+DB_PORT=3306 <br>
+DB_DATABASE=**birutekno**<br>
+DB_USERNAME={your_db_username}<br>
+DB_PASSWORD={your_db_password}<br>
 
 ## Create Database
 
