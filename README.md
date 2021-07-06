@@ -31,3 +31,10 @@ Create MySQL Database named "birutekno" which has mentioned above.
 
 ## Run Local Development Server
 Run command "php artisan serve" to make the app live.
+
+# RESTful API Endpoint
+
+| Method | Endpoint  | Description | Examples |
+|--|--|--|--|
+| GET | /api/employees/ | To get all employees data | http://localhost:8000/api/employees/ |
+| GET | /api/salaries?employee_id={employee id} | To get employee's salaries data  | http://localhost:8000/api/salaries?employee_id=1
