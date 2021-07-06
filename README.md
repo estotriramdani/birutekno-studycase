@@ -32,7 +32,7 @@ Create MySQL Database named "birutekno" which has mentioned above.
 ## Run Local Development Server
 Run command "php artisan serve" to make the app live.
 
-# RESTful API Endpoint
+# RESTful API Endpoints
 
 | Method | Endpoint  | Description | Examples |
 |--|--|--|--|
