@@ -25,7 +25,7 @@
             <td>{{ $employee->name }}</td>
             <td>Rp{{ number_format($employee->salary) }}</td>
             <td>
-              <a href="/employees/edit/{{ $employee->id }}" class="btn btn-warning mb-3 d-inline-block">Edit</a>
+              <a href="/employees/edit/{{ $employee->id }}" class="btn btn-warning d-inline-block">Edit</a>
               <form action="/employees/delete/{{ $employee->id }}" method="POST" class="d-inline-block">
                 @csrf
                 @method('delete')
